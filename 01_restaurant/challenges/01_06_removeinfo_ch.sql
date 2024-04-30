@@ -4,3 +4,9 @@
 -- be able to keep his Friday reservation. 
 -- Today is July 24, 2022.
 
+-- DELETE from Reservations WHERE 
+
+-- SELECT * FROM Customers
+-- WHERE Firstname = 'Norby'
+
+UPDATE RESERVATIONS SET DATE = NULL WHERE ReservationID = 2000
